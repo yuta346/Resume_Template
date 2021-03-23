@@ -1,0 +1,109 @@
+html{
+	margin:0;
+}
+
+header h1{
+	font-family: Verdana;
+	font-size: 42px;
+}
+
+body{
+	width:8.5in;
+	height:11in;
+	border:0.2px #d3d3d3 solid;
+	margin:0;
+	padding:0;
+}
+
+#div-box{
+	background-color:#fff; 
+	height:3px; 
+	width:270px;
+}
+
+
+#container{
+	display:flex;
+	margin-right: auto;
+    margin-left : auto;
+}
+
+.left{
+	background-color:#005580;
+	color: #fff;
+	flex-basis: 30rem;
+	padding:30px;
+
+}
+
+
+.left section h3{
+	font-family: Verdana;
+	font-size: 18px;
+}
+
+.left p{
+	font-family: Arial;
+	font-size:13px;
+}
+
+
+.right{
+	flex-basis: 50rem;
+	padding:30px;
+	padding-top:40px;
+
+}
+
+.right section h3{
+	font-family: Verdana;
+	color:#005580;
+	font-size: 18px;
+}
+
+.right div{
+	color:grey;
+	font-family: Arial;
+	font-size:13px;
+	padding:5px;
+}
+
+ul{
+  list-style: none;
+  display: table;
+  padding-left: 0;
+}
+
+li{
+	font-family: Arial;
+	font-size:13px;
+	margin:auto;
+
+}
+
+li:before{
+	content: "- ";
+}
+
+.icons{
+	padding:0;
+
+}
+
+.icons div{
+	margin-top:15px;
+	font-size:13px;
+	font-family: Arial;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color: #808080;
+}
+
+#section-box{
+	margin-top:-15px;
+}
